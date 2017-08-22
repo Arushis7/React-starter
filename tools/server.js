@@ -2,10 +2,10 @@
  * Created by ttnd on 13/10/16.
  */
 
-import express from 'express'
-import path from 'path'
-import webpack from 'webpack'
-import config from '../webpack.config'
+import express from 'express';
+import path from 'path';
+import webpack from 'webpack';
+import config from '../webpack.config';
 
 let app = express()
 let compile = webpack(config)
